@@ -1,0 +1,287 @@
+body
+ {font-family: Arial, Helvetica, sans-serif;}
+*
+{box-sizing: border-box;
+}
+input {
+    height: 30px;
+    margin: 0 10px;
+}
+button {
+    background-color: rgb(255, 230, 0);
+    border: none;
+    width: 120px;
+    height: 30px;
+}
+
+.title {background-image: url('Для сайта/4.jpg');
+    background-position: -150px -250px;
+    background-size: 115%;
+    background-repeat: no-repeat;
+    color: rgb(255, 230, 0);
+text-align: center;
+width: 100%;
+height: 350px;
+padding: 40px;
+position: relative;
+text-align: center;}
+.main_title h1::first-line {
+    color: white;
+}
+.headerfooter {
+    background-color: rgba(0,0,0,0.7);
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 20px;
+}
+.svetilniki {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.street { 
+    background-image: url('Для сайта/12.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 40px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-right: 70px;
+    position: relative;
+}
+#a {
+    position: absolute;
+    top: 90%;
+    left: 21%;
+
+}
+.home {
+    background-image: url('Для сайта/7.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+#b {
+    position: absolute;
+    top: 90%;
+    left: 21%;
+}
+.preimushestva {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    color: rgb(54, 33, 9);
+    padding: 20px;
+    position: relative;
+}
+.tovar, .dostavka, .tehnologii, .uslugi {
+    display: inline-block;
+    border: 3px solid rgb(54, 33, 9);
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    vertical-align: middle;
+    margin: 0 25px;
+}
+.kakrabotaem2 {
+    background-image: url('Для сайта/6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 -320px;
+}
+.kakrabotaem {
+    text-align: center;
+    background-color: rgba(54, 33, 9,0.7);
+    color: rgb(255, 230, 0);
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+}
+.zvonok, .raschet, .dogovor, .postavka, .montaj, .reshaemvopros {
+    display: inline-block;
+    vertical-align: middle;
+    border: 3px solid rgb(255, 230, 0);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.zvonok:hover, .raschet:hover, .dogovor:hover, .postavka:hover, .montaj:hover, .reshaemvopros:hover {
+    background-color: rgba(255, 230, 0,0.5);
+}
+.gdeprimenyaem {
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+.kolonka1 {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+.stroyobject, .proizvodstvo, .ofisy {
+    height: 300px;
+    width: 400px;
+    float: right;    
+    margin-right: 20px;
+}
+.kolonka2 {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+.skladi, .dorogi, .dvori {
+    height: 300px;
+    width: 400px;
+    margin-left: 20px;
+    float: left;
+}
+.zakazrascheta {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(54, 33, 9);
+    height: 150px;
+}
+#but1 {
+    width: 200px;
+}
+.chtonujnoznat {
+    background-color: rgb(255, 230, 0);
+    text-align: center;
+    color: rgb(54, 33, 9);
+    padding: 20px;
+}
+.chtonujnoznat table ::first-letter {
+    font-size: 40px;;
+}
+.chtonujnoznat table td {
+    text-align: left;
+    padding: 0 45px;
+}
+.kratkookompanii2 {
+    background-image: url('Для сайта/6.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 -320px;
+}
+.kratkookompanii {
+    text-align: center;
+    background-color: rgba(54, 33, 9,0.7);
+    color: white;
+    height: 300px;
+    width: 100%;
+    padding: 20px 360px;
+}
+.kratkookompanii::first-line {
+    color: rgb(255, 230, 0);
+}
+#onas {
+    width: 240px;
+    height: 40px;
+    font-size: large;
+}
+.chtogovoryat {
+    text-align: center;
+}
+.photo1 {
+width: 100px;
+height: 100px;
+ background-image: url('Для сайта/13.jpg');
+ background-size: 340%;
+ background-position: -60px -30px;
+ background-repeat: no-repeat;
+ border-radius: 50%;
+ border: 5px solid rgb(255, 230, 0);
+ float: left;
+}
+
+.sergey {
+    width: 70%;
+    height: 120px;
+    border-bottom: 5px solid rgb(255, 230, 0);
+    margin: auto;
+}
+
+.photo2 {
+    width: 100px;
+    height: 100px;
+     background-image: url('Для сайта/13.jpg');
+     background-size: 340%;
+     background-position: -145px -55px;
+     background-repeat: no-repeat;
+     border-radius: 50%;
+     border: 5px solid rgb(255, 230, 0);
+     float: left;
+    }
+.andrey {
+    width: 70%;
+    height: 120px;
+    margin: auto;
+}
+.svetvcifrah {
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    color: rgb(54, 33, 9);
+    padding: 20px;
+}
+.svetvcifrah table ::first-line {
+    font-size: x-large;
+}
+
+.svetvcifrah table td {
+    padding: 5px;
+}
+.havequestion {
+    text-align: center;
+    height: 80px;
+    }
+.havequest {
+    display: inline-block;
+    height: 120px;
+    margin: auto;
+}
+.butquest {
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.karta {
+    height: 300px;
+    background-image: url('Для сайта/11.jpg');
+    background-position: 0 -145px;
+}
+.kontakty {
+    text-align: left;
+    width: 320px;
+    height: 220px;
+    background-color: rgba(54, 33, 9,0.8);
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 850px;
+}
+.kontakt {
+ padding: 30px;
+}
+.logo {
+    float: left;
+    padding: 15px;
+}
+.zakazzvonka {
+    float: right;
+    padding: 0 45px 25px 0;
+}
